@@ -18,6 +18,8 @@ Welcome to my Tech Blog using the Model-View-Controller architectural pattern.
 
 ## Usage 
 ![Working Application](./public/images/application.png)
+https://radiant-castle-25320-59c5861ae913.herokuapp.com/ 
+Heroku Deployment
 
 ## License 
 No License Provided
