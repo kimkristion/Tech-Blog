@@ -1,0 +1,194 @@
+/* Reset Box Model and General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+header {
+  background-color: #4267B2;
+  color: #fff;
+  padding: 1% 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  color: #e2e2e2;
+}
+
+/* Site Name and Main Section */
+.site-row {
+  display: flex;
+  justify-content: center;
+}
+
+.site-name {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-style: double;
+  background-color: #4267B2;
+  color: #fff;
+}
+
+main {
+  flex: 1;
+  padding: 2% 4%;
+}
+
+/* Comments Section */
+.comments {
+  background-color: #f0f2f5;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.comment {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.comment .meta {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.comment .text {
+  font-size: 16px;
+}
+
+/* Post Section */
+.post {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.post-name a {
+  color: #385898;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.post-name a:hover {
+  color: #4267B2;
+}
+
+.created-by {
+  color: #555;
+}
+
+.content-section p {
+  font-size: 18px;
+}
+
+/* Form Section */
+.form-heading {
+  background-color: #4267B2;
+  color: #fff;
+  padding: 15px;
+}
+
+.form-section {
+  padding: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4267B2;
+  color: #fff;
+  border: 0;
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #385898;
+}
+
+.go-back {
+  color: #2c2307;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  margin-top: 20px;
+}
+
+.go-back:hover {
+  color: #4CAF50;
+}
+
+/* Login/Signup Pages */
+.login-page,
+.sign-in-page {
+  background-color: #f0f2f5;
+  border: 3px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.login-form,
+.signup-form {
+  margin-top: 20px;
+}
+
+.login-signup-btn {
+  background-color: #4267B2;
+  color: #fff;
+  border: 0;
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-signup-btn:hover {
+  background-color: #385898;
+}
+
+.sign-in-link,
+.login-link {
+  color: #4267B2;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.sign-in-link:hover,
+.login-link:hover {
+  color: #1A356E;
+}
